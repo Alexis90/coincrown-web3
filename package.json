@@ -1,18 +1,25 @@
 {
-  "name": "kickstart",
+  "name": "coincrown",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "dev": "next dev"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@truffle/hdwallet-provider": "^2.1.15",
+    "dotenv": "^16.4.5",
     "fs-extra": "^11.2.0",
     "ganache": "^7.9.2",
     "mocha": "^10.7.3",
+    "next": "^12.3.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.5",
     "solc": "^0.4.17",
     "web3": "^4.13.0"
   }
